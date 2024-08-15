@@ -1,0 +1,42 @@
+.card {
+	background-color: white;
+	border-radius: 15px;
+	padding: 3rem;
+	width: 26rem;
+	margin: 20px;
+	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+	text-align: center;
+}
+
+.card h2 {
+	color: #4da487;
+	margin-bottom: 3rem;
+}
+
+.item-list {
+	list-style: none;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	gap: 15px;
+	margin-bottom: 3rem;
+}
+
+.item-list li {
+	background-color: #f0f0f0;
+	border-radius: 10px;
+	padding: 10px 15px;
+}
+
+.card-button {
+	background-color: #326755;
+	color: white;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 10px;
+	transition: background-color 0.3s ease;
+}
+
+.card-button:hover {
+	background-color: #4da487;
+}

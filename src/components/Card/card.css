@@ -1,0 +1,65 @@
+.mainCard {
+	width: 25rem;
+	border-radius: 15px;
+	text-align: center;
+	padding: 20px;
+	margin: 20px auto;
+	transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+	background: linear-gradient(145deg, #ffffff, #f0f0f0); /* Degradado suave */
+	box-shadow: 6px 6px 12px #d9d9d9, -6px -6px 12px #ffffff; /* Sombra interior suave */
+	border: 1px solid #e0e0e0; /* Borde sutil */
+	display: flex;
+	flex-direction: column;
+	height: 80%;
+}
+
+.imgMainCard {
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+	border-radius: 50%;
+	border: 4px solid #e0e0e0; /* Borde suave alrededor de la imagen */
+	padding: 5px; /* Espacio entre la imagen y el borde */
+}
+
+.mainCard:hover {
+	transform: scale(1.05);
+	box-shadow: 0 20px 40px rgba(77, 164, 135, 0.4); /* Sombra exterior más pronunciada */
+	background: linear-gradient(145deg, #f4f4f4, #ffffff); /* Degradado al hacer hover */
+}
+
+.mainCard:hover .imgMainCard {
+	transform: scale(1.1);
+	box-shadow: 0 0 30px rgba(77, 164, 135, 0.5); /* Sombra en la imagen */
+}
+
+.mainCardBody {
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+	justify-content: space-between;
+}
+
+.mainCardBody h6 {
+	font-size: 22px;
+	font-weight: bold;
+	color: #333; /* Color más oscuro para mayor contraste */
+	margin-top: 15px;
+}
+
+.mainCardBody p {
+	font-size: 16px;
+	color: #666; /* Color de texto suave para el cuerpo */
+	margin-top: 10px;
+	line-height: 1.5;
+}
+
+.btn-primary {
+	border: none;
+	background-color: #4da487;
+	border-color: #4da487;
+	transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-primary:hover {
+	background-color: #3b846b;
+	transform: scale(1.05); /* Aumenta ligeramente el tamaño del botón al hacer hover */
+}

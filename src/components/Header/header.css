@@ -1,0 +1,7 @@
+#navBar {
+	transition: background-color 1s ease;
+}
+
+#navBar.scrolled {
+	background-color: #4da487;
+}
